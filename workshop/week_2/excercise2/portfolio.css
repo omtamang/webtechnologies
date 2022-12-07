@@ -1,0 +1,12 @@
+a:hover {
+    background-color: blue;
+}
+a:active {
+    color: darkorange;
+}
+a {
+    padding: 2px;
+}
+nav {
+    float: right;
+}
