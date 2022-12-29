@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+body {
+    background-color: black;
+    font-family:'Courier New', Courier, monospace
+}
+#content1 {
+    padding: 40px 40px 40px 0px;
+}
+#content2 {
+    padding: 40px 40px 40px 42px;
+}
+#content3 {
+    padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+img {
+    height: 400px;
+}
+#img1 {
+    width: 450px;
+}
+#content1, #content2, #content3 {
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.1;
+}
+h2 {
+    padding-top:40px
+}
+h4 {
+    padding-top: 40px;
+}
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+
+*/
+
+@media screen and (max-width: 1024px) {
+    .button a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .content-wrapper,
+    figure {
+      width: 100%;
+    }
+  
+    figure {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .button a {
+      text-align: center;
+    }
+  }
+  /*  */
+  

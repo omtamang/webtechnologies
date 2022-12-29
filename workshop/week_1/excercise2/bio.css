@@ -1,0 +1,12 @@
+a:hover {
+    background-color: blue; /* set to give color to the link while hovering */
+}
+a:active {
+    color: darkorange; /* set to give color to the link that is opened in a window */
+}
+a {
+    padding: 2px; 
+}
+nav {
+    float: right;
+}
